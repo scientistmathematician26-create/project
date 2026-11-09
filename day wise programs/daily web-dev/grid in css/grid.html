@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: grid;
+            height:100vh;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr ;
+            border:2px solid black;
+            /* gap: 0.5rem; */
+            
+        }
+        .items{
+            background-color: aqua;
+            border-radius:10px;
+            border:2px solid rgb(9, 9, 9);
+            
+        }
+        #colo{
+            background-color: rgb(18, 193, 108);
+            grid-column-start:1 ;
+            grid-column-end:4 ;
+
+        }
+        #first{
+            background-color: brown;
+            grid-column-start:1 ;
+            grid-column-end:4 ;
+            height: 100px;
+            /* text-align: center; */
+            font-size: 30px;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id = "container" style="background-color: black;">
+        <div class = "items" id="first" >header is starting</div>
+         <div class="items"></div>
+        <!-- <div class="items"></div>
+        <div class="items"></div>
+        <div class="items" id="colo"></div>
+        <div class="items"></div>
+             <div class="items"></div>
+              <div class="items"></div>
+               <div class="items"></div>  -->
+
+    </div>
+    
+</body>
+</html>
